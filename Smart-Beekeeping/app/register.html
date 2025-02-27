@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/smart-nyuki-theme.css">
     <style>
         body {
-            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            background: none;
         }
         .card {
             border-radius: 15px;
@@ -19,6 +19,7 @@
         .bg-register-image {
             background-size: cover;
             background-position: center;
+            background-image: url('assets/img/bees/bee_image.jpeg');
         }
         .smart-nyuki-heading {
             font-family: 'Arial Black', sans-serif;
@@ -41,7 +42,7 @@
             <div class="card-body p-0">
                 <div class="row">
                     <div class="col-lg-5 d-none d-lg-flex">
-                        <div class="flex-grow-1 bg-register-image" style="background-image: url(&quot;assets/img/dogs/image2.jpeg&quot;);"></div>
+                        <div class="flex-grow-1 bg-register-image"></div>
                     </div>
                     <div class="col-lg-7">
                         <div class="p-5">
@@ -79,11 +80,14 @@
                                 <button class="btn btn-primary d-block btn-user w-100" type="submit">Register Account</button>
                                 <hr>
                             </form>
-                            <div class="text-center">
-                                <a class="small" href="forgot-password.html">Forgot Password?</a>
+                                <div class="text-center">
+                                <img src="/Logo_nobg.png" alt="Bee Image" style="width: 100px; height: auto;">
                             </div>
                             <div class="text-center">
-                                <a class="small" href="login.html">Already have an account? Login!</a>
+                                <a class="btn btn-secondary btn-user w-100 mb-2" href="forgot-password.html">Forgot Password?</a>
+                            </div>
+                            <div class="text-center">
+                                <a class="btn btn-secondary btn-user w-100" href="login.html">Already have an account? Login!</a>
                             </div>
                         </div>
                     </div>

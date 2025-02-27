@@ -1,8 +1,8 @@
 /* Smart Beekeeping Theme Colors */
 :root {
     --primary: #FFB800;    /* Honey Gold */
-    --secondary: #704E2E;  /* Dark Honey */
-    --success: #567D46;    /* Forest Green */
+    --secondary: #ff7f07;  /* Dark Honey */
+    --success: #a1c991;    /* Forest Green */
     --info: #7FA8D7;      /* Sky Blue */
     --warning: #FFA000;    /* Amber */
     --danger: #DC3545;     /* Red */
